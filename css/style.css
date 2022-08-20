@@ -104,53 +104,188 @@ header {
 header .wrapper { 
 
 }
+header .wrapper section.head {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
 
-header .wrapper .left { 
+header .wrapper section.head .left { 
     font-size: 15px;
     display: flex;
     padding-top: 20px;
+    width: 50px;
+}
+
+header .wrapper section.head .left h1 { 
+}
+
+header .wrapper section.head .left h1 a { 
 
 }
 
-header .wrapper .left h1 { 
-}
-
-header .wrapper .left h1 a { 
-
-}
-
-header .wrapper .left h1 a img { 
+header .wrapper section.head .left h1 a img { 
     color: #fff;
 
 }
+header .wrapper section.head. div.middle  {
+    display: flex;
+    justify-content: center; 
+}
+header  div.middle ul { 
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+    width: 500px;
+}
 
-header .wrapper .left ul { 
+header .wrapper section.head .middle ul li { 
+    margin-left: 20px;
+    padding-top: 35px;
+
+
+}
+
+header .wrapper section.head .middle ul li a { 
+    color:#e8e8e8;
+    align-items: center;
+
+}
+
+header .wrapper section.head .right { 
+    width: 50px;
+}
+
+header .wrapper section.head .right ul { 
     display: flex;
     margin-top: 20px;
     justify-content: space-between;
 
 }
 
-header .wrapper .left ul li { 
+header .wrapper section.head .right ul li { 
     margin-left: 20px;
+    padding-top: 35px;
 }
 
-header .wrapper .left ul li a { 
-    color:#e8e8e8;
-}
-
-header .wrapper .right { 
-
-}
-
-header .wrapper .right ul { 
+header .wrapper section.head .right ul li a { 
+    color: #e8e8e8;
 
 }
 
-header .wrapper .right ul li { 
+header .wrapper section.head .right ul li a.button { 
+    background: #e8e8e8;
+    border-radius: 20px;
+    width: 20px;
+    padding: 12px 12px;
+    color: #0b0a0a;
+    font-weight: bold;
+}
+
+.bottom { 
 
 }
 
-header .wrapper .right ul li a { 
+.bottom .container { 
 
+}
+
+.bottom .container h1 { 
+    padding: 50px;
+    font-size: 50px;
+    color: #e8e8e8;
+    margin-left: 35%;
+    font-weight: 600;
+    width: 40%;
+}
+
+.bottom .container p { 
+    font-size: 15px;
+    color: #605d4a;
+    margin-left: 37%;
+    width: 31%;
+    margin-bottom: 30px;
+}
+
+.bottom .container .button { 
+    font-size: 20px;
+    background: #a6ff34;
+    border-radius: 20px;
+    width: 20px;
+    padding: 10px 10px;
+    margin-left: 47%;
+    font-weight: bold;
+    color: #0b0a0a;
+
+}
+
+.bottom .container .button span { 
+    
+}
+
+.bottom .container .button span img {
+    text-align: center;
+}
+
+.bottom .container a { 
+
+}
+
+.bottom .container a img { 
+    color: #e8e8e8;
+    font-size: 70px;
+
+}
+
+.sticker { 
+    position: relative;
+   text-align: center;
+}
+
+.sticker div.one {
+    position: absolute;
+    transform: rotate(-24deg);
+    left: 391px;
+    top: 109px;
+}
+
+.sticker div.one img { 
+    width: 59%;
+    display: block;
+}
+
+
+.sticker div.two{
+    position: absolute;
+    margin-left: 40%;
+    /* transform: rotate(22deg); */
+    left: -40px;
+    top: 130px;
+}
+
+.sticker div.two img { 
+    width: 59%;
+    display: block;
+}
+
+.sticker div.three { 
+    position: absolute;
+    transform: rotate(10deg);
+    left: 755px;
+    top: 109px;
+}
+
+.sticker div.three img { 
+    width: 59%;
+    display: block;
+}
+.sticker div.four{
+    position: absolute;
+    transform: rotate(8deg);
+    left: 911px;
+    top: 174px;
+}
+.sticker div.four img { 
+    width: 59%;
+    display: block;
 }
