@@ -323,8 +323,8 @@ header .wrapper section.head .right ul li a.button {
 }
 
 #open .tab .right {
-position: absolute;
-right: 417px;
+    position: absolute;
+    right: 417px;
 }
 
 #open .tab .right img { 
@@ -352,93 +352,198 @@ right: 417px;
     width: 50%;
 }
 
-#images { 
-
+#images section.find div.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
 }
-
-#images .find { 
-
-}
-
-#images .find h3 { 
-    font-size: 30px;
-    font-weight: bold;
-    width: 40%;
+#images section.find div.container>div{
+    width: 20%;
+    display: inline-block;
+    margin-right: 40px;
     text-align: center;
-    padding-top: 50px;
-    margin-left: 60px;
-    color: #0b0a0a;
 }
-
-#images .find h3 span { 
-    font-size: 30px;
-    font-weight: bold;
+#images section.find div.container>div>img{
     width: 40%;
-    color: #605d4a;
 }
 
-#images .find h4 { 
-    font-size: 35px;
+#platform { 
+    background: #e8e8e8;
+}
+
+#platform h1 { 
+    font-size: 60px;
     font-weight: bold;
+    text-align: center;
+    padding-top: 40px;
     color: #0b0a0a;
+    padding-top: 70px;
+}
+
+#platform .trend { 
+
+}
+
+#platform .trend .fig{ 
+    display: flex;
+    padding: 50px;
+    margin-left: 10%;
+    
+}
+#platform .trend .fig div {
+    background: #fff;
+    border-radius: 20px;
+    width: 120px;
+    height: 120px;
+   position: relative;
+    margin-right: 20px;
+} 
+#platform .trend .fig div img{
+    display: block;
+    width: 100%;
+}
+ #platform .trend .fig .facebook { 
+   
+}
+
+#platform .trend .fig div.facebook img { 
+    width: 80px;
+    top: 18px;
+    right: 12px;
+    position: absolute;
+}
+
+#platform .trend .fig div.twitter { 
+   background: #a6ff34;
+}
+
+#platform .trend .fig .twitter img { 
+    width: 80px;
+    top: 18px;
+    right: 12px;
+    position: absolute;
+    
+}
+
+#platform .trend .fig .dribble { 
+
+}
+
+#platform .trend .fig .dribble img { 
+    width: 80px;
+    top: 18px;
+    right: 12px;
+    position: absolute;
+}
+
+#platform .trend .fig .git { 
+
+}
+
+
+#platform .trend .fig .git img { 
+    width: 80px;
+    top: 18px;
+    right: 12px;
+    position: absolute;
+}
+
+#platform .trend .fig .company { 
+
+} 
+
+#platform .trend .fig .company img { 
+    width: 80px;
+    top: 18px;
+    right: 12px;
+    position: absolute;
+}
+
+#platform .trend .fig .pinrest { 
+    
+}
+
+#platform .trend .fig .pinrest img { 
+    width: 80px;
+    top: 18px;
+    right: 12px;
+    position: absolute;
+}
+
+#platform .trend .fig .linkedin { 
+
+}
+
+#platform .trend .fig .linkedin img { 
+    width: 80px;
+    top: 18px;
+    right: 12px;
+    position: absolute;}
+
+#platform .trend .fig .vk { 
+
+}
+
+#platform .trend .fig .vk img { 
+    width: 80px;
+    top: 18px;
+    right: 12px;
+    position: absolute;
+}
+
+#platform .trend .post { 
+    margin-right: 20px;
+}
+
+#platform .trend .post img { 
+    width: 60%;
+}
+
+#platform .trend .post { 
     margin-left: 25%;
-    padding-top: 80px;
 }
 
-#images .find .google { 
-
-}
-
-#images .find .google img { 
-    width: 10%;
-    padding-top: 60px;
-    margin-left: 20%;
-}
-
-#images .find .porsche { 
+#platform .trend .post .one { 
 
 }
 
-#images .find .porsche img { 
-    width: 10%;
+#platform .trend .post .one img { 
+    width: 70%;
 }
 
-#images .find .algolia { 
-
-}
-
-#images .find .algolia img { 
-    width: 10%;
-}
-
-#images .find .volvo { 
+#platform .trend .post .two { 
 
 }
 
-#images .find .volvo img { 
-    width: 10%;
+#platform .trend .post .two img { 
+    width: 70%;
 }
 
-#images .find .grab { 
-
-}
-
-#images .find .grab img { 
-    width: 10%;
-}
-
-#images .find .upwork { 
+#platform .trend .post .three { 
 
 }
 
-#images .find .upwork img { 
-    width: 10%;
+#platform .trend .post .three img { 
+    width: 70%;
 }
 
-#images .find .coinbase { 
+#platform .trend ul { 
+    margin-top: 70px;
+}
+
+#platform .trend ul li { 
 
 }
 
-#images .find .coinbase img { 
-    width: 10%;
+#platform .trend ul li .button { 
+    font-size: 15px;
+    background: #0b0a0a;
+    border-radius: 25px;
+    width: 20px;
+    padding: 15px 30px;
+    margin-left: 47%;
+    color: #fff;
+
 }
