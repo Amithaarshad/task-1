@@ -289,3 +289,156 @@ header .wrapper section.head .right ul li a.button {
     width: 59%;
     display: block;
 }
+
+#open { 
+    background: #a6ff34;
+    height: 100vh;
+}
+
+#open .tab { 
+
+}
+
+#open .tab h1 {
+    padding: 71px 0;
+    font-size: 60px;
+    font-weight: bold;
+    color: #0b0a0a;
+    text-align: center;
+    /* margin: 5px 0 0 20%; */
+}
+
+#open .tab .search {
+    position: absolute;
+    margin-left: 43%;
+    background: #e8e8e8;
+    border-radius: 13px;
+    padding: 39px 42px 37px 42px;
+    width: 21%;
+}
+
+#open .tab .search img {
+    width: 100%;
+    display: block;
+}
+
+#open .tab .right {
+position: absolute;
+right: 417px;
+}
+
+#open .tab .right img { 
+
+
+}
+
+#open .tab .left {
+    position: absolute;
+    left: 526px;
+}
+
+#open .tab .left img { 
+    transform: scaleX(-1);
+
+
+}
+
+#open .tab p {
+    text-align: center;
+    margin: 180px 0 0 380px;
+    padding: 71px 0;
+    color: #0b0a0a;
+    text-align: center;
+    width: 50%;
+}
+
+#images { 
+
+}
+
+#images .find { 
+
+}
+
+#images .find h3 { 
+    font-size: 30px;
+    font-weight: bold;
+    width: 40%;
+    text-align: center;
+    padding-top: 50px;
+    margin-left: 60px;
+    color: #0b0a0a;
+}
+
+#images .find h3 span { 
+    font-size: 30px;
+    font-weight: bold;
+    width: 40%;
+    color: #605d4a;
+}
+
+#images .find h4 { 
+    font-size: 35px;
+    font-weight: bold;
+    color: #0b0a0a;
+    margin-left: 25%;
+    padding-top: 80px;
+}
+
+#images .find .google { 
+
+}
+
+#images .find .google img { 
+    width: 10%;
+    padding-top: 60px;
+    margin-left: 20%;
+}
+
+#images .find .porsche { 
+
+}
+
+#images .find .porsche img { 
+    width: 10%;
+}
+
+#images .find .algolia { 
+
+}
+
+#images .find .algolia img { 
+    width: 10%;
+}
+
+#images .find .volvo { 
+
+}
+
+#images .find .volvo img { 
+    width: 10%;
+}
+
+#images .find .grab { 
+
+}
+
+#images .find .grab img { 
+    width: 10%;
+}
+
+#images .find .upwork { 
+
+}
+
+#images .find .upwork img { 
+    width: 10%;
+}
+
+#images .find .coinbase { 
+
+}
+
+#images .find .coinbase img { 
+    width: 10%;
+}
