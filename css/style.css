@@ -114,7 +114,6 @@ header .wrapper section.head .left {
     font-size: 15px;
     display: flex;
     padding-top: 20px;
-    width: 50px;
 }
 
 header .wrapper section.head .left h1 { 
@@ -153,7 +152,7 @@ header .wrapper section.head .middle ul li a {
 }
 
 header .wrapper section.head .right { 
-    width: 50px;
+
 }
 
 header .wrapper section.head .right ul { 
@@ -194,15 +193,16 @@ header .wrapper section.head .right ul li a.button {
     padding: 50px;
     font-size: 50px;
     color: #e8e8e8;
-    margin-left: 35%;
     font-weight: 600;
     width: 40%;
+    margin: 0 auto;
+    text-align: center;
 }
 
 .bottom .container p { 
     font-size: 15px;
     color: #605d4a;
-    margin-left: 37%;
+    margin: 0 auto;
     width: 31%;
     margin-bottom: 30px;
 }
@@ -371,7 +371,7 @@ header .wrapper section.head .right ul li a.button {
 }
 
 #images .find h3 span { 
-    color: #e8e8e8;
+    color: grey;
     font-size: 50px;
     font-weight: bold;
 }
@@ -803,11 +803,11 @@ div.button-bottom{
  #footer { 
     background: #a6ff34;
     height: 60vh;
-    padding-top: 50px;
+    padding:100px 50px 50px;
 }
 
 #footer .foot { 
-    padding: 50px;
+    
 }
 
 #footer .foot h1 { 
@@ -834,18 +834,22 @@ div.button-bottom{
     margin-left: 47%;
     color: #fff;
 }
-#bottom { 
+#bottom {
     display: flex;
+    justify-content: space-between;
+    padding: 23px 50px;
 }
 
-#bottom .left { 
+#bottom .left {
 
+width: 15%;
 }
 
-#bottom .left img { 
-    margin-left: 40%;
-    width: 80%;
-    padding-top: 20px;
+#bottom .left img {
+    /* margin-left: 40%; */
+    width: 100%;
+    display: block;
+    /* padding: 50px; */
 }
 
 #bottom .right { 
@@ -854,18 +858,227 @@ div.button-bottom{
 
 #bottom .right ul { 
     display: flex;
-    margin-top: 20px;
     justify-content: space-between;
-    width: 400px;
-    margin-left: 170%;
-    padding-top: 20px;
 }
 
 #bottom .right ul li { 
-
+    margin-left: 20px;
 }
-
+#bottom .right ul li:first-child{
+    margin-left: 0px;
+}
 #bottom .right ul li a { 
     color: #0b0a0a;
-
 }
+
+@media all and (max-width:1380px){
+    header {
+        height: 848px;
+    }
+    .sticker div.two {
+        left: 60px;
+        top: 122px;
+    }
+    .sticker div.one {
+        left: 382px;
+        top: 97px;
+    }
+    #open .tab .left {
+        left: 424px;
+    }
+    #open .tab .right {
+        right: 335px;
+    }
+    #open .tab p {
+        margin: 127px 0 0 380px;
+    }
+    #images .find h3 {
+        width: 79%;
+    }
+    #images .find h4 {
+        margin-left: 12%;
+    }
+    #platform .trend .fig {
+        margin-left: 4%;
+    }
+    #footer .foot h1 {
+        width: 49%;
+    }
+}
+@media all and (max-width:1280px){
+    .bottom .container h1 {
+        width: 57%;
+    }
+    .bottom .container p {
+        width: 51%;
+    }
+    .bottom .container .button {
+        margin-left: 36%;
+    }
+    header .wrapper section.head .middle ul  {
+        justify-content: flex-start;
+    }
+    header .wrapper section.head .middle ul li a {
+        font-size: 16px;
+    }
+    .sticker div.two {
+        left: -74px;
+    }
+    .sticker div.one {
+        left: 186px;
+        top: 76px;
+    }
+    .sticker div.three {
+        left: 510px;
+        top: 100px;
+    }
+    .sticker div.four {
+        left: 663px;
+        top: 158px;
+    }
+    #open .tab .left {
+        left: 235px;
+    }
+    #open .tab .search {
+        margin-left: 35%;
+    }
+    #open .tab p {
+        margin: 115px 0 0 240px;
+    }
+    #images .find h3 {
+        width: 92%;
+    }
+    #images .find h3 {
+        font-size: 46px;
+    }
+    #images .find h4 {
+        margin: left 20%;
+    }
+    #images .find h4 {
+        font-size: 40px;
+    }
+    #platform h1 {
+        font-size: 48px;
+    }
+    #platform .trend .fig {
+         padding: 73px;
+    }
+    #footer .foot h1 {
+        width: 65%;
+    }
+    #footer .foot h1 {
+        font-size: 46px;
+        margin-left: 19%;
+    }
+    #footer .button {
+        margin-left: 40%;
+    }
+    #platform .trend .fig {
+        padding: 5px 5px;
+    }
+    #platform h1{
+        margin-bottom: 20px;
+    }
+    #platform .trend .post .one img {
+        margin-top: 65px;
+    }
+}
+@media all and (max-width:1080px){
+    header .wrapper section.head .right ul li a.button {
+        font-size: 12px;
+    }
+    .bottom .container h1 {
+        width: 66%;
+    }
+    .bottom .container p {
+        width: 58%;
+    }
+    .sticker div.three {
+        left: 465px;
+        top: 108px;
+    }
+    .sticker div.four {
+        left: 622px;
+        top: 170px;
+    }
+    #open .tab .left {
+        left: 208px;
+    }
+    #open .tab .right {
+        right: 292px;
+    }
+    #open .tab p {
+        margin: 90px 0 0 230px;
+    }
+    #images .find h3 {
+        font-size: 41px;
+    }
+    #images .find h3 span {
+        font-size: 44px;
+    }
+    #images .find h4 {
+        font-size: 38px;
+    }
+    #images section.find div.container {
+        margin-bottom: 40px;
+    }
+    header .wrapper section.head .right ul li {
+        margin-left: 2px;
+    }
+}
+@media all and (max-width:980px) {
+    header .wrapper section.head .right {
+        display: none;
+    }
+    .bottom .container h1 {
+        width: 87%;
+        text-align: center;
+    }
+    .bottom .container p {
+        width: 69%;
+        text-align: center;
+    }
+    .sticker div.one {
+        left: 115px;
+        top: 90px;
+        width: 250px;
+    }
+    .sticker div.two {
+        width: 250px;
+    }
+    .sticker div.three {
+        left: 368px;
+        top: 108px;
+        width: 250px;
+    }
+    .sticker div.four {
+        left: 495px;
+        top: 158px;
+        width: 250px;
+    }
+    .sticker div.four {
+        font-size: 47px;
+    }
+    #open .tab .search {
+        padding: 14px 35px 15px 36px;
+        border-radius: 3px;
+    }
+    #open .tab .left {
+        left: 179px;
+    }
+    #open .tab .left img {
+        width: 85px;
+    }
+    #open .tab .right img {
+        width: 85px;
+    }
+    #open .tab .right {
+        right: 245px;
+    }
+    #open .tab h1 {
+        font-size: 44px;
+    }
+    #open .tab p {
+        margin: 47px 0px 0px 109px;
+        width: 71%;
+    }
