@@ -227,11 +227,11 @@ header .wrapper section.head .right ul li a.button {
     text-align: center;
 }
 
-.bottom .container a { 
+.bottom .container a.arrow { 
 
 }
 
-.bottom .container a img { 
+.bottom .container a.arrow img { 
     color: #e8e8e8;
     font-size: 70px;
 
@@ -1062,9 +1062,10 @@ width: 15%;
     #open .tab .search {
         padding: 14px 35px 15px 36px;
         border-radius: 3px;
+        margin-left: 40%;
     }
     #open .tab .left {
-        left: 179px;
+        left: 220px;
     }
     #open .tab .left img {
         width: 85px;
@@ -1073,12 +1074,289 @@ width: 15%;
         width: 85px;
     }
     #open .tab .right {
-        right: 245px;
+        right: 210px;
     }
     #open .tab h1 {
         font-size: 44px;
     }
     #open .tab p {
-        margin: 47px 0px 0px 109px;
+        margin: 48px 0px 0px 133px;
         width: 71%;
     }
+    #images .find h3 {
+        font-size: 34px;
+    }
+    #images .find h3 span {
+        font-size: 37px;
+    }
+    #images .find h4 {
+        font-size: 35px;
+    }
+    #images section.find div.container {
+        width: 78%;
+        margin-left: 129px;
+        margin-bottom: 56px;
+    }
+    #platform h1 {
+        font-size: 34px;
+    }
+    #platform .trend .fig div {
+        height: 97px;
+        width: 69px;
+        margin-right: 15px;
+    }
+    #platform .trend .fig {
+        padding: 5px 40px;
+    }
+    #deal .wrapper div.bottom-deal {
+        margin-left: 30%;
+    }
+    #deal .wrapper div.ll img {
+        width: 65%;
+        margin-left: -16px;
+    }
+    #deal div.deal-bottom div.one {
+        width: 30%;
+        margin-right: 1%;
+        margin-left: 7%;
+        height: 419px;
+
+    }
+    #deal div.one h1 {
+        font-size: 30px;
+    }
+    #deal div.one nav {
+        font-size: 14px;
+    }
+    #deal div.one span b {
+        font-size: 33px;
+    }
+    div.one ul {
+        font-size: 13px;
+    }
+    div.deal-bottom div.two {
+        width: 30%;
+        margin-right: 1%;
+        margin-left: 7%;
+        height: 419px;
+    }
+    #deal div.two h1 {
+        font-size: 30px;
+    }
+    #deal div.two nav {
+        font-size: 14px;
+    }
+    #deal div.two span b {
+        font-size: 33px;
+    }
+    div.two ul {
+        font-size: 13px;
+    }
+    div.deal-bottom div.three {
+        width: 30%;
+        margin-right: 1%;
+        margin-left: 7%;
+        height: 419px;
+    }
+    #deal div.three h1 {
+        font-size: 30px;
+    }
+    #deal div.three nav {
+        font-size: 14px;
+    }
+    #deal div.three span b {
+        font-size: 33px;
+    }
+    div.three ul {
+        font-size: 13px;
+    }
+    #deal {
+        height: 700px;
+    }
+    #footer .foot h1 {
+        width: 77%;
+        padding-top: 4px;
+    }
+    #footer .foot h1 span {
+        font-size: 44px;
+    }
+    #bottom .right ul {
+        font-size: 15px;
+    }
+    #platform .trend .fig div.facebook img {
+        width: 70%;
+        top: 13px;
+        right: 12px;
+    }
+    #platform .trend .fig div {
+        height: 72px;
+    }
+    #platform .trend .fig div.twitter img {
+        width: 70%;
+        top: 13px;
+        right: 12px;
+    }
+    #platform .trend .fig div.dribble img {
+        width: 70%;
+        top: 13px;
+        right: 12px;
+    }
+    #platform .trend .fig div.git img {
+        width: 70%;
+        top: 13px;
+        right: 12px;
+    }
+    #platform .trend .fig div.company img {
+        width: 70%;
+        top: 13px;
+        right: 12px;
+    }
+    #platform .trend .fig div.pinrest img {
+        width: 70%;
+        top: 13px;
+        right: 12px;
+    }
+    #platform .trend .fig div.linkedin img {
+        width: 70%;
+        top: 13px;
+        right: 12px;
+    }
+    #platform .trend .fig div.vk img {
+        width: 70%;
+        top: 13px;
+        right: 12px;
+    }
+}
+@media all and (max-width:768px) {
+    header {
+        height: 770px;
+    }
+
+    header .wrapper section.head .middle ul {
+        display: none;
+    }
+    .bottom .container h1 {
+        width: 102%;
+    }
+    .bottom .container p {
+        width: 83%;
+    }
+    .sticker div.one {
+        left: 100px;
+        width: 216px;
+    }
+    .sticker div.two {
+        width: 216px;
+        left: -58px;
+    }
+    .sticker div.three {
+        width: 216px;
+        left: 299px;
+
+    }
+    .sticker div.four {
+        width: 216px;
+        left: 394px;
+        top: 152px;
+    }
+    #open .tab p {
+        margin: 45px 0px 0px 106px;
+        width: 80%;
+        font-size: 15px;
+    }
+    #images .find h3 {
+        font-size: 26px;
+        margin-left: 40px;
+    }
+    #images .find h3 span {
+        font-size: 31px;
+    }
+    #images .find h4 {
+        font-size: 29px;
+
+    }
+    #images section.find div.container {
+        width: 94%;
+        margin-left: 39px;
+    }
+    #platform .trend .fig div {
+        height: 63px;
+    }
+    #platform .trend .fig div.facebook img {
+        top: 13px;
+        right: 8px;
+    }
+    #platform .trend .fig div.twitter img {
+        top: 13px;
+        right: 8px;
+    }
+    #platform .trend .fig div.dribble img {
+        top: 13px;
+        right: 8px;
+    }
+    #platform .trend .fig div.pinrest img {
+        top: 13px;
+        right: 8px;
+    }
+    #platform .trend .fig div.git img {
+        top: 13px;
+        right: 8px;
+    }
+    #platform .trend .fig div.company img {
+        top: 13px;
+        right: 8px;
+    }
+    #platform .trend .fig div.linkedin img {
+        top: 13px;
+        right: 8px;
+    }
+    #platform .trend .fig div.vk img {
+        top: 13px;
+        right: 8px;
+    }
+    #platform h1 {
+        margin-left: 21px;
+    }
+    div.platform-button button {
+        padding: 1%;
+        width: 14%;
+    }
+    #platform {
+        margin-bottom: 1px;
+        height: 974px;
+
+    }
+    #deal div.deal-bottom div.one {
+        margin-right: -4%;
+        margin-left: 3%;
+    }
+    #deal div.deal-bottom div.two {
+        margin-right: -4%;
+    }
+    #footer .foot h1 {
+        width: 95%;
+        font-size: 36px;
+        margin-left: 6%;
+    }
+    #footer .foot h1 span {
+        font-size: 39px;
+    }
+}
+@media all and (max-width:640px) {
+    .bottom .container h1 {
+        width: 116%;
+        font-size: 43px;
+        margin-left: -24px;
+    }
+    .bottom .container p {
+        width: 83%;
+        font-size: 12px;
+        margin-bottom: 24px;
+    }
+    .bottom .container .button {
+        margin-left: 33%;
+        font-size: 13px;
+        padding: 10px 6px;
+    }
+    .bottom .container a.arrow img {
+        width: 68px;
