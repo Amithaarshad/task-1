@@ -1411,10 +1411,10 @@ width: 15%;
         height: 60vh;
     }
     #images .find h3 {
-        font-size: 22px;
+        font-size: 21px;
     }
     #images .find h3 span {
-        font-size: 27px;
+        font-size: 23px;
     }
     #images .find h4 {
         font-size: 23px;
@@ -1558,3 +1558,160 @@ width: 15%;
         font-size: 35px;
         margin-left: -64px;
     }
+    .bottom .container p {
+        width: 102%;
+        font-size: 14px;
+    }
+    .bottom .container .button {
+        margin-left: 32%;
+    }
+    .sticker div.one {
+        top: 57px;
+        left: 57px;
+        width: 140px;
+    }
+    .sticker div.two {
+        width: 140px;
+        left: -28px;
+        top: 76px;
+    }
+    .sticker div.three {
+        width: 140px;
+        left: 176px;
+        top: 66px;
+    }
+    .sticker div.four {
+         width: 140px;
+         left: 224px;
+         top: 92px;
+    }
+    header {
+        height: 627px;
+    }
+    #open .tab h1 {
+        font-size: 31px;
+    }
+    #open {
+        height: 44vh;
+    }
+    #open .tab h1{
+        padding: 70px 0 30px;
+    }
+    #open .tab .right img {
+        width: 42px;   
+    }
+    #open .tab .right {
+        right: 23px;    
+    }
+    #open .tab .left {
+        left: 91px;
+    }
+    #open .tab .left img {
+        width: 44px;
+    }
+    #open .tab p {
+        margin: -18px 0px 0px 35px;
+        font-size: 11px;
+    }
+    #images .find h3 {
+        font-size: 16px;
+        margin-bottom: -68px;
+        margin-left: 28px;
+
+    }
+    #images .find h3 span{
+        font-size: 15px;
+    }
+    #images .find h4 {
+        font-size: 17px;
+        margin-bottom: -32px;
+    }
+    #platform .trend .fig {
+      display: none;
+    }
+    #platform .trend .post .one img {
+        margin-top: 20px;
+    }
+    div.platform-button button {
+        width: 25%;
+    }
+    #platform {
+        height: 721px;
+    }
+    #deal .wrapper h2 {
+        font-size: 26px;
+    }
+    #deal div.deal-bottom {
+        flex-wrap: wrap;
+    }
+    #deal div.deal-bottom div {
+        width: 76%;
+        margin: 0 auto 40px;
+        height: 281px;
+    }
+    #deal .wrapper div.bottom-deal {
+        margin-bottom: 30px;
+    }
+    #deal div.deal-bottom div.one {
+        width: 65%;
+        margin: 0 auto 40px;
+        height:316px;
+    }
+    #deal div.deal-bottom div {
+        width: 70%;
+        height: 38px;
+    }
+    #deal div.deal-bottom div.two {
+        height: 310px;
+        width: 68%;
+        margin: 0 auto 40px;
+    }    
+    div.two ul {
+        margin-bottom: 30px;
+        font-size: 11px;
+    }
+    #deal div.deal-bottom div a{
+       font-size: 13px;
+    }
+    div.one ul {
+        margin-bottom: 20px;
+    }
+    #deal {
+        height: 1248px;
+    }
+    #deal div.deal-bottom div.three {
+        height: 305px;
+    }
+    div.three ul {
+       margin-bottom: 30px;
+    }
+    #footer {
+        height: 47vh;
+        padding: 100px 0px 50px;
+    }
+    #footer .foot h1 {
+        font-size: 22px;
+        text-align: center;
+    }
+    #footer .foot h1 span{
+        font-size: 22px;
+    }
+    #bottom {
+        align-items: center;
+        padding: 23px 15px;
+    }
+    #bottom .left {
+        width: 24%;
+    }
+    #bottom .right ul {
+        font-size: 10px;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+}
