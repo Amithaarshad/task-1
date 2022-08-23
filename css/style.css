@@ -1354,9 +1354,207 @@ width: 15%;
         margin-bottom: 24px;
     }
     .bottom .container .button {
-        margin-left: 33%;
+        margin-left: 38%;
         font-size: 13px;
         padding: 10px 6px;
     }
     .bottom .container a.arrow img {
         width: 68px;
+    }
+    .sticker div.one {
+        left: 81px;
+        width: 184px;
+    }
+    .sticker div.two {
+        left: -29px;
+        width: 184px;
+    }
+    .sticker div.three {
+        left: 251px;
+        width: 184px;
+    }
+    .sticker div.four {
+        width: 184px;
+        left: 322px;
+    }
+    #open .tab h1 {
+        font-size: 35px;
+    }
+    #open .tab .search img {
+        margin-left: -3px;
+        padding: 10px 0px 0px 10px;
+
+    }
+    #open .tab .right{
+        width: 110px;
+        right: 67px;
+        
+    }
+    #open .tab .right img {
+        width: 60px;
+    }
+    #open .tab .left img {
+        width: 65px;
+    }
+    #open .tab .left {
+        left: 116px;
+    }
+    #open .tab p {
+        margin: -1px 0px 0px 66px;
+        font-size: 12px;
+    }
+    #open .tab .search {
+        padding: 0px 26px 10px 22px;
+
+    }
+    #open {
+        height: 60vh;
+    }
+    #images .find h3 {
+        font-size: 22px;
+    }
+    #images .find h3 span {
+        font-size: 27px;
+    }
+    #images .find h4 {
+        font-size: 23px;
+    }
+    #images section.find div.container div {
+        width: 24%;
+        margin-left: 4px;
+    }
+    #platform h1 {
+        width: 113%;
+        font-size: 27px;
+        margin-left: -28px;
+    }
+    #platform .trend .fig div {
+        height: 40px;
+        margin-bottom: -36px;
+
+    }
+    #platform .trend .fig div.facebook img {
+        right: 5px;
+        top: 9px;
+
+    }
+    #platform .trend .fig div.twitter img {
+        right: 5px;
+        top: 9px;
+    }
+    #platform .trend .fig div.git img {
+        right: 5px;
+        top: 9px;
+    }
+    #platform .trend .fig div.pinrest img {
+        right: 5px;
+        top: 9px;
+    }
+    #platform .trend .fig div.linkedin img {
+        right: 5px;
+        top: 9px;
+    }
+    #platform .trend .fig div.dribble img {
+        right: 5px;
+        top: 9px;
+    }
+    #platform .trend .fig div.company img {
+        right: 5px;
+        top: 9px;
+    }
+    #platform .trend .fig div.vk img {
+        right: 5px;
+        top: 9px;
+    }
+    #platform {
+        height: 871px;
+    }
+    #platform .trend .post {
+        width: 95%;
+        margin-left: 17%;
+    }
+    #deal .wrapper h2 {
+        font-size: 35px;
+    }
+    #deal .wrapper div.bottom-deal {
+        margin-left: 24%;
+    }
+    #deal div.one h1 {
+        font-size: 22px;
+    }
+    #deal div.two h1 {
+        font-size: 22px;
+    }
+    #deal div.three h1 {
+        font-size: 22px;
+    }
+    #deal div.one nav {
+        font-size: 11px;
+    }
+    #deal div.two nav {
+        font-size: 11px;
+    }
+    #deal div.three nav {
+        font-size: 11px;
+    }
+    #deal div.one span b {
+        font-size: 29px;
+    }
+    #deal div.two span b {
+        font-size: 29px;
+    }
+    #deal div.three span b {
+        font-size: 29px;
+    }
+    div.one ul {
+        font-size: 11px;
+    }
+    .button-divbottom {
+        padding: 4%;
+    }
+    div.button-bottom-two{
+        padding: 4%;
+    }
+    div.button-bottom-three{
+        padding: 4%;
+    }
+    div.two ul {
+        font-size: 11px;
+    }
+    #deal div.deal-bottom div.one {
+        height: 371px;
+    }
+    #deal div.deal-bottom div.two {
+        height: 371px;
+    }
+    div.three ul {
+        font-size: 11px;
+    }
+    #deal div.deal-bottom div.three {
+        height: 366px;
+    }
+    #deal {
+        height: 605px;
+    }
+    #footer .foot h1{
+        width: 108%;
+        font-size: 33px;
+        margin-left: -3px;
+
+    }
+    #footer .foot h1 span {
+        font-size: 33px;
+    }
+    #bottom .right ul {
+        font-size: 12px;
+    }
+    #footer .button {
+        margin-left: 34%;
+    }
+}
+@media all and (max-width:480px) {
+    .bottom .container h1{
+        width: 138%;
+        font-size: 35px;
+        margin-left: -64px;
+    }
