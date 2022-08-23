@@ -1706,12 +1706,17 @@ width: 15%;
     #bottom .right ul {
         font-size: 10px;
     }
-    
-    
-    
-    
-    
-    
-    
-    
+}
+@media all and (max-width:360px) {
+    .bottom .container h1{
+        width: 131%;
+        font-size: 30px;
+        margin-left: -52px;
+    }
+    .bottom .container p {
+        width: 98%;
+    }
+    #open {
+        height: 48vh;
+    }
 }
